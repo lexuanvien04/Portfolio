@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/jpg" href="assets/image/pacman.png"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="profile container">
+        <!-- THEME BUTTON -->
+        <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+        <div class="profile-conatiner grid">
+            <div class="profile-data">
+                <div class="profile-border">
+                    <div class="profile-perfil">
+                        <img src="assets/image/vien4.jpg" alt="">
+                    </div>
+                </div>
+                <h2 class="profile-name">Le Xuan Vien</h2>
+                <h3 class="profile-profession">Front-end Developer</h3>
+                <ul class="profile-social">
+                    <a href="https://www.facebook.com/vienhelios03" class="profile-social-link">
+                        <i class='bx bxl-facebook' ></i>
+                    </a>
+                    <a href="https://www.instagram.com/vien.helios/" class="profile-social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/le-xuan-vien-7aaa49266" class="profile-social-link">
+                        <i class='bx bxl-linkedin' ></i>
+                    </a>
+                    <a href="https://github.com/lexuanvien04" class="profile-social-link">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                </ul>
+            </div>
+            <div class="profile-info grid">
+                <div class="profile-info-group">
+                    <h3 class="profile-info-number">-1</h3>
+                    <p class="profile-info-description">Year of <br> experience</p>
+                </div>
+                <div class="profile-info-group">
+                    <h3 class="profile-info-number">+4</h3>
+                    <p class="profile-info-description">Complete <br> project</p>
+                </div>
+                <div class="profile-info-group">
+                    <h3 class="profile-info-number">23</h3>
+                    <p class="profile-info-description">Years <br> old</p>
+                </div>
+            </div>
+
+            <div class="profile-button">
+                <a href="assets/pdf/CV LE XUAN VIEN - Intern Front-end.pdf" download="" class="button">
+                    Dowload CV <i class='bx bxs-download'></i>
+                </a>
+                <div class="profile-button-small">
+                    <a href="tel://0353386306" target="_blank" class="button button-small button-gray">
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
+                    <a href="https://www.facebook.com/vienhelios03" target="_blank" class="button button-small button-gray">
+                        <i class='bx bx-message-rounded-dots'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="filters container">
+            <ul class="filters-content">
+                <button class="filters-button filters-tab-active" data-target="#projects">
+                    Project
+                </button>
+                <button class="filters-button" data-target="#skills">
+                    Skills
+                </button>
+            </ul>
+            <div class="filters-sections">
+                <div class="projects-content grid filters-active" data-content id="projects">
+                    <article class="projects-card">
+                        <img src="assets/image/project1.jpg" alt="" class="projects-img">
+                        <div class="projects-modal">
+                            <div>
+                                <span class="projects-subtitle">Website (ReactJS)</span>
+                                <h3 class="projects-title">Photo Album</h3>
+                                <a href="https://github.com/lexuanvien04/photoalbum.git" class="projects-button button button-small">
+                                    <i class='bx bx-link-alt' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="projects-card">
+                        <img src="assets/image/project2.jpg" alt="" class="projects-img">
+                        <div class="projects-modal">
+                            <div>
+                                <span class="projects-subtitle">Website (ReactJS)</span>
+                                <h3 class="projects-title">Travelo</h3>
+                                <a href="https://github.com/lexuanvien04/travelo.git" class="projects-button button button-small">
+                                    <i class='bx bx-link-alt' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="projects-card">
+                        <img src="assets/image/project3.jpg" alt="" class="projects-img">
+                        <div class="projects-modal">
+                            <div>
+                                <span class="projects-subtitle">Website (ASP.Net)</span>
+                                <h3 class="projects-title">Khanh An Drug Store</h3>
+                                <a href="https://github.com/lexuanvien04/KhanhAnDrugStore.git" class="projects-button button button-small">
+                                    <i class='bx bx-link-alt' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="projects-card">
+                        <img src="assets/image/project4.jpg" alt="" class="projects-img">
+                        <div class="projects-modal">
+                            <div>
+                                <span class="projects-subtitle">Design</span>
+                                <h3 class="projects-title">Music app design</h3>
+                                <a href="" class="projects-button button button-small">
+                                    <i class='bx bx-link-alt' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="skills-content grid" data-content id="skills">
+                    <div class="skills-area">
+                        <h3 class="skill-title">
+                            Front-end Developer
+                        </h3>
+                        <div class="skills-box">
+                            <div class="skills-group">
+                                <div class="skills-data">
+                                    <i class='bx bx-check-circle'></i>
+                                    <div>
+                                        <h3 class="skills-name">HTML</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class='bx bx-check-circle'></i>
+                                    <div>
+                                        <h3 class="skills-name">CSS</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class='bx bx-check-circle'></i>
+                                    <div>
+                                        <h3 class="skills-name">JavaScript</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-group">
+                                <div class="skills-data">
+                                    <i class='bx bx-check-circle'></i>
+                                    <div>
+                                        <h3 class="skills-name">ReactJS</h3>
+                                        <span class="skills-level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class='bx bx-check-circle'></i>
+                                    <div>
+                                        <h3 class="skills-name">Bootstrap</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class='bx bx-check-circle'></i>
+                                    <div>
+                                        <h3 class="skills-name">Resposive</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="skills-area">
+                        <h3 class="skill-title">
+                            UI Designer
+                        </h3>
+                        <div class="skills-box">
+                            <div class="skills-group">
+                                <div class="skills-data">
+                                    <i class='bx bx-check-circle'></i>
+                                    <div>
+                                        <h3 class="skills-name">Photoshop</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class='bx bx-check-circle'></i>
+                                    <div>
+                                        <h3 class="skills-name">Figma</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class='bx bx-check-circle'></i>
+                                    <div>
+                                        <h3 class="skills-name">Adobe XD</h3>
+                                        <span class="skills-level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="skills-group">
+                                <div class="skills-data">
+                                    <i class='bx bx-check-circle'></i>
+                                    <div>
+                                        <h3 class="skills-name">ReactJS</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class='bx bx-check-circle'></i>
+                                    <div>
+                                        <h3 class="skills-name">Bootstrap</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <i class='bx bx-check-circle'></i>
+                                    <div>
+                                        <h3 class="skills-name">Git</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div> -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <span class="footer-copy">
+            &#169; Xuan Vien.
+        </span>
+    </footer>
+
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
